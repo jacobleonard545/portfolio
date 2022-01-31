@@ -1,0 +1,18 @@
+@import './_variables';
+
+#navbar{
+    width: 100%;
+    nav{
+        width: 100%;
+        background-color: $navbar-background-color;
+    }
+    #color-btn{
+        color: $primary-color;
+    }
+    a{
+        color: $primary-color;
+        &:hover{
+            border-bottom: 3px solid $primary-color;
+        }
+    }
+}
